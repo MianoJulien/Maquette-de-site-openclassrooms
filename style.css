@@ -1,3 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#bloc_page {
+  width: 90%;
+  margin: auto;
+}
 body {
-  font-size: 2rem;
+  background: rgb(255, 237, 202);
+}
+
+header {
+  display: flex;
+  border: 2px solid;
+  position: relative;
+}
+
+em {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+nav {
+  position: absolute;
+  border: 2px solid;
+  height: 49px;
+  width: 250px;
+  right: 0;
+  bottom: 0;
+}
+ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+.img-sanfransisco {
+  height: 250px;
+  width: 100%;
+  background: url(./images/sanfrancisco.jpg) no-repeat center/cover;
+  margin: auto;
+}
+section {
+  display: flex;
+}
+article {
+  width: 70%;
+  border: 2px solid blue;
+}
+
+aside {
+  width: 30%;
+  border: 2px solid red;
 }
