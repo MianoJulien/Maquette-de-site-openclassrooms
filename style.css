@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bentham&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Romanesco&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Bentham", serif;
 }
 #bloc_page {
   width: 90%;
@@ -18,6 +22,7 @@ header {
 h1 {
   margin: 10px 0 0px 50px;
   width: 60%;
+  font-family: "Romanesco", cursive;
 }
 
 em {
@@ -52,27 +57,27 @@ ul {
   text-decoration: underline 3px solid rgb(167, 63, 63);
 }
 .middle-page {
-  height: 60vh;
+  height: 80vh;
   background: rgb(250, 224, 171);
 }
 
 .box-sanfransisco {
-  height: 300px;
-}
-.img-sanfransisco {
-  height: 250px;
+  height: 400px;
   width: 90%;
-  background: url(./images/sanfrancisco.jpg) no-repeat center/cover;
+  margin: auto;
+}
+#img-sanfransisco {
+  width: 90%;
+  margin: 20px;
   border-radius: 5px;
-  margin: 10px auto;
 }
 section {
-  height: 550px;
   display: flex;
+  height: 400px;
 }
 article {
-  width: 70%;
-  height: 100%;
+  width: 75%;
+  margin: 50px 20px;
 }
 
 h2 {
@@ -87,11 +92,11 @@ p {
 }
 
 aside {
-  width: 25%;
+  width: 20%;
   height: 400px;
   background: rgb(129, 110, 103);
   border-radius: 5px;
-  margin: 10px;
+  margin: 20px;
 }
 h4 {
   text-transform: uppercase;
